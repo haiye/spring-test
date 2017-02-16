@@ -9,7 +9,6 @@ public class MainAppScope {
     
     public static void scopeTest(String xmlName){
         ApplicationContext context = new ClassPathXmlApplicationContext(xmlName);
-//      ApplicationContext context = new ClassPathXmlApplicationContext("BeansScopePrototype.xml");
       HelloWorld objA = (HelloWorld) context.getBean("helloWorld");
       objA.setMessage("I'm object A");
       objA.getMessage();
