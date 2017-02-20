@@ -5,3 +5,4 @@ ebay.log
 .settings/
 .classpath
 .project
+*.class

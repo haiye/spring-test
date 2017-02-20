@@ -8,6 +8,6 @@ public class MainAppXMLBeanFactory {
     public static void main(String[] args) {
         XmlBeanFactory factory = new XmlBeanFactory(new ClassPathResource("Beans.xml"));
         HelloWorld obj = (HelloWorld) factory.getBean("helloWorld");
-        obj.getMessage();
+        obj.getMessage1();
     }
 }
